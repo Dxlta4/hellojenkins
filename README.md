@@ -21,7 +21,7 @@
 - деплой приложения с заданными параметрами.
 
 *Скриншот настройки Jenkins pipeline*  
-![Pipeline setup](https://imgur.com/RWUBJLi)
+<img width="1379" height="895" alt="image" src="https://github.com/Dxlta04/hellojenkins/blob/master/1111.jpg?raw=true" />
 
 ---
 
@@ -30,7 +30,7 @@ Webhook на GitHub позволяет автоматически запуска
 `Settings → Webhooks → Add webhook`, указываем URL Jenkins и тип события `push`.
 
 *Скриншот создания Webhook*  
-![Webhook setup](https://imgur.com/3f1aYq9)
+<img width="1897" height="1057" alt="image" src="https://github.com/Dxlta04/hellojenkins/blob/master/2222222222.jpg?raw=true" />
 
 ---
 
@@ -38,7 +38,7 @@ Webhook на GitHub позволяет автоматически запуска
 После настроенного Jenkins pipeline и webhook, при каждом пуше в репозиторий Jenkins собирает Docker-образ с приложением и запускает тесты.
 
 *Скриншот успешной сборки*  
-![Docker build](https://imgur.com/qgRXSuJ)
+<img width="1888" height="1050" alt="image" src="https://github.com/Dxlta04/hellojenkins/blob/master/333333333333.jpg?raw=true" />
 
 ---
 
@@ -46,7 +46,7 @@ Webhook на GitHub позволяет автоматически запуска
 После успешного деплоя приложение доступно по индивидуальному порту и отображает заданное имя студента.
 
 *Скриншот запущенной страницы*  
-![App page]()
+<img width="1915" height="1058" alt="image" src="https://github.com/Dxlta04/hellojenkins/blob/master/ураааааа.jpg?raw=true" />
 
 6. Убедитесь, что GitHub webhook корректно сработал, и Jenkins автоматически запустил повторную сборку.
 
