@@ -21,7 +21,7 @@
 - деплой приложения с заданными параметрами.
 
 *Скриншот настройки Jenkins pipeline*  
-![Pipeline setup]([images/pipeline_setup.png](https://imgur.com/RWUBJLi))
+![Pipeline setup]((https://imgur.com/RWUBJLi))
 
 ---
 
@@ -30,7 +30,7 @@ Webhook на GitHub позволяет автоматически запуска
 `Settings → Webhooks → Add webhook`, указываем URL Jenkins и тип события `push`.
 
 *Скриншот создания Webhook*  
-![Webhook setup]([images/webhook_setup.png](https://imgur.com/3f1aYq9))
+![Webhook setup]((https://imgur.com/3f1aYq9))
 
 ---
 
@@ -38,7 +38,7 @@ Webhook на GitHub позволяет автоматически запуска
 После настроенного Jenkins pipeline и webhook, при каждом пуше в репозиторий Jenkins собирает Docker-образ с приложением и запускает тесты.
 
 *Скриншот успешной сборки*  
-![Docker build]([images/docker_build.png](https://imgur.com/qgRXSuJ))
+![Docker build]((https://imgur.com/qgRXSuJ))
 
 ---
 
